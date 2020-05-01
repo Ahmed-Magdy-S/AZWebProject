@@ -1,0 +1,69 @@
+.section-plan {
+    padding: 5rem $padding-side;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    gap: 5rem;
+
+}
+
+.pricing-table {
+    border: 1px solid $divider-color;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: $shadow;
+
+    h3 {
+        color: $accent-color;
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    span {
+        display: inline-block;
+        font-weight: 600;
+        font-size: 2rem;
+        color: $secondary-color-text;
+        margin-bottom: 3rem;
+    }
+
+    ul {
+        width: 75%;
+        margin: 0 auto;
+
+        li {
+            padding: 1rem;
+            text-transform: capitalize;
+
+            &:not(:last-child) {
+                border-bottom: 1px solid $divider-color;
+            }
+        }
+    }
+
+    &--free {
+        a {
+            display: block;
+            padding: 1.1rem 2rem;
+            margin: 4rem auto;
+            color: $primary-color-text;
+            width: 65%;
+            background-color: $accent-color;
+
+
+        }
+    }
+
+    &--paid {
+        a {
+            display: block;
+            padding: 1.1rem 2rem;
+            margin: 4rem auto;
+            color: $primary-color-text;
+            width: 65%;
+            background-color: $primary-color-dark;
+
+
+
+        }
+    }
+}

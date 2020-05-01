@@ -1,0 +1,138 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  background-color: #be3144;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 900;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-brand {
+  padding: 1.5rem 2rem;
+}
+.nav-brand a {
+  color: #FFFFFF;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list__item {
+  padding: 1.5rem 2rem;
+}
+.nav-list__item a {
+  color: #FFFFFF;
+}
+
+.header {
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  color: #FFFFFF;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.main-heading--title {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+.main-heading--description {
+  font-size: 2.3rem;
+  font-weight: 900;
+  color: #be3144;
+  text-transform: capitalize;
+}
+.main-heading--description span {
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.section-plan {
+  padding: 5rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+  gap: 5rem;
+}
+
+.pricing-table {
+  border: 1px solid #BDBDBD;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.5);
+}
+.pricing-table h3 {
+  color: #be3144;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+.pricing-table span {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #3454D1;
+  margin-bottom: 3rem;
+}
+.pricing-table ul {
+  width: 75%;
+  margin: 0 auto;
+}
+.pricing-table ul li {
+  padding: 1rem;
+  text-transform: capitalize;
+}
+.pricing-table ul li:not(:last-child) {
+  border-bottom: 1px solid #BDBDBD;
+}
+.pricing-table--free a {
+  display: block;
+  padding: 1.1rem 2rem;
+  margin: 4rem auto;
+  color: #FFFFFF;
+  width: 65%;
+  background-color: #be3144;
+}
+.pricing-table--paid a {
+  display: block;
+  padding: 1.1rem 2rem;
+  margin: 4rem auto;
+  color: #FFFFFF;
+  width: 65%;
+  background-color: #181719;
+}
+
+/*# sourceMappingURL=main-style.css.map */

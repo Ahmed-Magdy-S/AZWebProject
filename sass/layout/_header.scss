@@ -1,0 +1,29 @@
+.header {
+    background-color: $primary-color;
+    background-image: linear-gradient(62deg, $primary-color-light 0%, $primary-color-dark 100%);
+    color: $primary-color-text;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 $padding-side;
+}
+
+.main-heading {
+    &--title {
+        font-size: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    &--description {
+        font-size: 2.3rem;
+        font-weight: 900;
+        color: $accent-color;
+        text-transform: capitalize;
+        span {
+            color: $primary-color-text;
+            text-decoration: underline;
+        }
+    }
+}
