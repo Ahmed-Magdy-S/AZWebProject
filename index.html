@@ -14,8 +14,8 @@
             <a href="#">AZ Web Project</a>
         </div>
         <ul class="nav-list">
-            <li class="nav-list__item nav-list__item--plans"><a href="#">Plans</a></li>
-            <li class="nav-list__item nav-list__item--faq""><a href=" #">FAQ</a></li>
+            <li class="nav-list__item nav-list__item--plans"><a href="#section-plan">Plans</a></li>
+            <li class="nav-list__item nav-list__item--faq""><a href=" #section-faq">FAQ</a></li>
             <li class="nav-list__item nav-list__item--work""><a href=" #">Work</a></li>
             <li class="nav-list__item nav-list__item--contact""><a href=" #">Contact</a></li>
             <li class="nav-list__item nav-list__item--donate"><a href="#">Donate</a></li>
@@ -29,39 +29,67 @@
     </header>
     <!-- End Header -->
     <!-- Start plan Section -->
-    <section class="section-plan">
+    <section id="section-plan" class="section-plan">
+        <div class="plans">
 
-        <div class="pricing-table pricing-table--free">
-            <h3>Basic</h3>
-            <span>*Free*</span>
-            <ul class="features-list">
-                <li>1 Website Project</li>
-                <li>Once Per User</li>
-                <li>No Support</li>
-                <li>Not for use commercially</li>
-                <li>Open Source Code</li>
-                <li>Copyrights are reserved by us</li>
-            </ul>
-            <a href="#">Submit Your Request</a>
+            <div class="pricing-table pricing-table--free">
+                <h3>Basic</h3>
+                <span>*Free*</span>
+                <ul class="features-list">
+                    <li>1 Website Project Per User</li>
+                    <li>front-end only</li>
+                    <li>No Support after delivery</li>
+                    <li>Not for use commercially</li>
+                    <li>Open Source Code</li>
+                    <li>Copyrights are reserved by us</li>
+                </ul>
+                <a href="#">Submit Your Request</a>
+            </div>
+            <div class="pricing-table pricing-table--paid">
+                <h3>Premium</h3>
+                <span>*Paid*</span>
+                <ul class="features-list">
+                    <li>unlimited Website Projects Per User</li>
+                    <li>Front-end + Back-end</li>
+                    <li>life-time Support</li>
+                    <li>can be used commercially</li>
+                    <li>Private Source Code</li>
+                    <li>copyrights are reserved by you</li>
+                </ul>
+                <a href="#">Contact Us</a>
+            </div>
         </div>
-        <div class="pricing-table pricing-table--paid">
-            <h3>Premium</h3>
-            <span>*Paid*</span>
-            <ul class="features-list">
-                <li>unlimited Website Projects</li>
-                <li>unlimited Per User</li>
-                <li>life-time Support</li>
-                <li>can be used commercially</li>
-                <li>Private Source Code</li>
-                <li>copyrights are reserved by you</li>
-            </ul>
-            <a href="#">Contact Us</a>
-        </div>
+
     </section>
     <!-- End plan Section -->
     <!-- Section FAQ -->
-    <section class="section-faq">
-        <h2></h2>
+    <section id="section-faq" class="section-faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="question">
+            <h5>What is "AZ Web Project" ?</h5>
+            <p>It's a website developed by "Ahmed Magdy Seleem", that introduced 2 types of service, one for free and
+                the another one is paid according to requirments needed.
+            </p>
+        </div>
+        <div class="question">
+            <h5>Why do you build websites for free ?</h5>
+            <p>Simply, It's to practice my skills as well as show my work to real clients, so if anyone like my quality of work, he can purshase my paid service without being worried</p>
+        </div>
+        <div class="question">
+            <h5>Why do you have a donation link ?</h5>
+            <p>it's just exist for supporting, you don't have to donate, but it will help so much to maintain the free service to be available all time.</p>
+        </div>
+        <div class="question">
+            <h5>do you accept advertisments ?</h5>
+            <p>Sure! Just contact me and choose where to put your ads, that's also a way of supporting. not all ads are being accepted so it will be reviewd first to ensure that it's trusted to be introduced safely to users.
+            </p>
+        </div>
+        <div class="question">
+            <h5>in your paid service there is a life-time support, what does that mean ?</h5>
+            <p>In case of any error occurs, I will fix it for free.<br>
+            but any new modification will have additional cost
+            </p>
+        </div>
     </section>
     <!-- End Section FAQ -->
     <script src="js/w3.js">
