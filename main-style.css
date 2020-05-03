@@ -31,10 +31,12 @@ a {
 
 h1 {
   font-size: 5rem;
+  font-family: "Raleway", sans-serif;
 }
 
 h2 {
   font-size: 4rem;
+  font-family: "Raleway", sans-serif;
 }
 
 h3 {
@@ -112,7 +114,7 @@ h5 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
   gap: 5rem;
-  margin-bottom: 5rem;
+  margin: 5rem 0;
 }
 
 .pricing-table {
@@ -170,7 +172,7 @@ h5 {
   display: block;
   border-bottom: 1px solid #be3144;
   border-top: 1px solid #be3144;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .question {
@@ -180,6 +182,40 @@ h5 {
   margin-bottom: 1rem;
   color: #3454D1;
   font-weight: 900;
+}
+
+.section-work {
+  height: 20rem;
+  background: #3a3d40;
+  border-top: 1px solid #BDBDBD;
+}
+.section-work h2 {
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+.section-work p {
+  font-style: italic;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.section-contact {
+  height: 50rem;
+  color: #FFFFFF;
+  padding: 5rem 5rem;
+  background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+}
+
+.section-earn {
+  color: #FFFFFF;
+  padding: 3rem 5rem;
+  background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem 0;
 }
 
 /*# sourceMappingURL=main-style.css.map */

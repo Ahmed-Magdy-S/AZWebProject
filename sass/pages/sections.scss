@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
     gap: 5rem;
-    margin-bottom: 5rem;
+    margin: 5rem 0;
 }
 
 .pricing-table {
@@ -81,14 +81,53 @@
         border-bottom: 1px solid $accent-color;
         border-top: 1px solid $accent-color;
 
-        margin: 0 auto;
+        margin: 2rem auto;
     }
 }
+
 .question {
     padding: 2rem 2.5rem;
+
     h5 {
         margin-bottom: 1rem;
         color: $secondary-color-text;
         font-weight: 900;
     }
+}
+
+.section-work {
+    height: 20rem;
+    background: $primary-color-light;
+    border-top: 1px solid $divider-color;
+
+    h2 {
+        text-align: center;
+        color: $primary-color-text;
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+
+    }
+
+    p {
+        font-style: italic;
+        font-size: 2.5rem;
+        text-align: center;
+        color: $primary-color-text;
+    }
+}
+
+.section-contact {
+    height: 50rem;
+    color: $primary-color-text;
+    padding: 5rem $padding-side;
+    background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+}
+
+.section-earn {
+    color: $primary-color-text;
+    padding: 3rem $padding-side;
+    background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 3rem 0;
 }
