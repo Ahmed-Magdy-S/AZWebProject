@@ -162,6 +162,15 @@ h5 {
   background-color: #181719;
 }
 
+.section-earn {
+  color: #FFFFFF;
+  padding: 3rem 5rem;
+  background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 3rem 0;
+}
+
 .section-faq {
   padding: 5rem 5rem;
 }
@@ -207,15 +216,7 @@ h5 {
   color: #FFFFFF;
   padding: 5rem 5rem;
   background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
-}
-
-.section-earn {
-  color: #FFFFFF;
-  padding: 3rem 5rem;
-  background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
   text-align: center;
-  font-size: 2.5rem;
-  margin: 3rem 0;
 }
 
 /*# sourceMappingURL=main-style.css.map */

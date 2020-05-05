@@ -70,10 +70,19 @@
     }
 }
 
+.section-earn {
+    color: $primary-color-text;
+    padding: 3rem $padding-side;
+    background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 3rem 0;
+} 
+
 .section-faq {
     padding: 5rem $padding-side;
 
-    h2 {
+    h2 {    
         color: $accent-color;
         text-align: center;
         padding: 1rem 1.5rem;
@@ -121,13 +130,6 @@
     color: $primary-color-text;
     padding: 5rem $padding-side;
     background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+    text-align: center;
 }
 
-.section-earn {
-    color: $primary-color-text;
-    padding: 3rem $padding-side;
-    background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 3rem 0;
-}
