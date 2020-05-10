@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   line-height: 1.4;
 }
@@ -36,7 +36,6 @@ h1 {
 
 h2 {
   font-size: 4rem;
-  font-family: "Raleway", sans-serif;
 }
 
 h3 {
@@ -58,7 +57,6 @@ h5 {
   justify-content: space-between;
   align-items: center;
   font-weight: 900;
-  position: fixed;
   width: 100%;
 }
 
@@ -72,11 +70,22 @@ h5 {
 .nav-list {
   display: flex;
 }
-.nav-list__item {
-  padding: 1.5rem 2rem;
-}
 .nav-list__item a {
   color: #FFFFFF;
+  display: block;
+  padding: 1.5rem 2rem;
+}
+.nav-list__item:hover {
+  background: #FFFFFF;
+}
+.nav-list__item:hover a {
+  color: #be3144;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .header {
@@ -104,6 +113,28 @@ h5 {
 .main-heading--description span {
   color: #FFFFFF;
   text-decoration: underline;
+}
+
+.beta {
+  margin-top: 4rem;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #00B7C0;
+}
+
+.footer {
+  background-color: #000;
+  background-image: linear-gradient(180deg, #3a3d40 0%, #181719 100%);
+  text-align: center;
+  color: #FFFFFF;
+  border-top: 3px solid #be3144;
+  padding: 3rem 5rem;
+  line-height: 2;
+  font-weight: 700;
+}
+.footer span {
+  color: #be3144;
+  font-weight: 900;
 }
 
 .section-plan {
@@ -145,6 +176,9 @@ h5 {
 .pricing-table ul li:not(:last-child) {
   border-bottom: 1px solid #BDBDBD;
 }
+.pricing-table a {
+  transition: all 0.3s;
+}
 .pricing-table--free a {
   display: block;
   padding: 1.1rem 2rem;
@@ -152,6 +186,10 @@ h5 {
   color: #FFFFFF;
   width: 65%;
   background-color: #be3144;
+  box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.5);
+}
+.pricing-table--free a:hover {
+  background-color: rgba(190, 49, 68, 0.8);
 }
 .pricing-table--paid a {
   display: block;
@@ -160,15 +198,10 @@ h5 {
   color: #FFFFFF;
   width: 65%;
   background-color: #181719;
+  box-shadow: 0 1.5rem 2.5rem rgba(0, 0, 0, 0.5);
 }
-
-.section-earn {
-  color: #FFFFFF;
-  padding: 3rem 5rem;
-  background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
-  text-align: center;
-  font-size: 2.5rem;
-  margin: 3rem 0;
+.pricing-table--paid a:hover {
+  background-color: rgba(24, 23, 25, 0.8);
 }
 
 .section-faq {
@@ -193,30 +226,50 @@ h5 {
   font-weight: 900;
 }
 
-.section-work {
-  height: 20rem;
-  background: #3a3d40;
-  border-top: 1px solid #BDBDBD;
-}
-.section-work h2 {
-  text-align: center;
+.section-earn {
   color: #FFFFFF;
-  margin-top: 3.5rem;
+  padding: 3rem 5rem;
+  background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+  margin: 7rem 0;
+}
+.section-earn h2 {
+  text-align: center;
   margin-bottom: 2rem;
 }
-.section-work p {
-  font-style: italic;
-  font-size: 2.5rem;
-  text-align: center;
-  color: #FFFFFF;
+.section-earn h4 {
+  margin-bottom: 1.5rem;
 }
 
 .section-contact {
-  height: 50rem;
+  padding: 3rem 5rem;
   color: #FFFFFF;
-  padding: 5rem 5rem;
-  background-image: linear-gradient(62deg, #00244a 0%, #024058 100%);
+  background-color: #000;
+  background-image: linear-gradient(0deg, #3a3d40 0%, #181719 100%);
   text-align: center;
+  margin: 7rem 0 0 0;
+  font-weight: 900;
+}
+.section-contact h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.section-contact ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-contact ul li {
+  padding: 1.5rem 2rem;
+}
+.section-contact a {
+  color: #FFFFFF;
+  font-size: 2.1rem;
+  transition: all 0.5s;
+  display: block;
+  text-shadow: 3px 3px 1px #1f1f1f;
+}
+.section-contact a:hover {
+  transform: translateY(5px);
 }
 
 /*# sourceMappingURL=main-style.css.map */

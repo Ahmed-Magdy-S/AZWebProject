@@ -5,10 +5,11 @@
     justify-content: space-between;
     align-items: center;
     font-weight: 900;
-    position: fixed;
+    //  position: fixed;
     width: 100%;
 
 }
+
 .nav-brand {
     padding: 1.5rem 2rem;
 
@@ -17,14 +18,31 @@
 
     }
 }
+
 .nav-list {
     display: flex;
 
     &__item {
-        padding: 1.5rem 2rem;
 
         a {
             color: $primary-color-text;
+            display: block;
+            padding: 1.5rem 2rem;
+
+        }
+
+        &:hover {
+            background: $primary-color-text;
+        }
+
+        &:hover a {
+            color: $accent-color;
         }
     }
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
