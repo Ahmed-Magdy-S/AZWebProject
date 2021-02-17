@@ -4,9 +4,10 @@
 
 .plans {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(27rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
     gap: 5rem;
     margin: 5rem 0;
+    
 }
 
 .pricing-table {
@@ -14,6 +15,7 @@
     padding: 2rem;
     text-align: center;
     box-shadow: $shadow;
+    width: 90%;
 
     h3 {
         color: $accent-color;
@@ -44,6 +46,7 @@
 
     a {
         transition: all .3s;
+        width: 60%;
     }
 
     &--free {
@@ -52,7 +55,6 @@
             padding: 1.1rem 2rem;
             margin: 4rem auto;
             color: $primary-color-text;
-            width: 65%;
             background-color: $accent-color;
             box-shadow: $shadow;
 
@@ -68,7 +70,6 @@
             padding: 1.1rem 2rem;
             margin: 4rem auto;
             color: $primary-color-text;
-            width: 65%;
             background-color: $primary-color-dark;
             box-shadow: $shadow;
             &:hover {
